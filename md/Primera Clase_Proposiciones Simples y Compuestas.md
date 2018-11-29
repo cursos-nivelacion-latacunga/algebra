@@ -1,34 +1,34 @@
-% Lógica proposicional
+# Lógica proposicional
 
 **Tema de la clase** Proposiciones: simples y compuestas. Introducción a los conectores lógicos: negación, conjunción,  disyunción, condicional, bicondicional. Tablas de verdad. Ejercicios.
 
 **Objetivo de la clase** Definir y reconocer  proposiciones simples a las que se les puede asignar un valor de verdad para relacionarlas entre sí con conectivos lógicos como: negación , conjunción, disyunción, condicional y  bicondicional para formar proposiciones compuestas que tienen un valor de verdad que puede ser determinado.  
 
-# Proposiciones lógicas
+## Proposiciones lógicas
 
 Enunciado (frase u oracion) que puede ser calificado como verdadero o falso, sin ambiguedades (no ambas a la vez). Y denotadas con letras minusculas ($p$,$r$,$s$,$t$,...etc).
 
 Se clasifican en simples y compuestas.
 
-## Proposiciones simples
+### Proposiciones simples
 
 Es una proposición que no contiene ningun conectivo lógico.
 
-### Ejemplo de proposiciones simples
+#### Ejemplo de proposiciones simples
 
 - $p:$ 25 es un numero par  (***Falso***). 
 - $q:$ Granada es una Cuidad de España (***Verdadero***).
-- $r:$ Emmy Noether fue la segunda mujer matemática que ayudo a Albert Einstein a alumbrar sus teorias (***Verdadero***).
+- $r:$ Emmy Noether fue la segunda mujer matemática que ayudó a Albert Einstein a alumbrar sus teorias (***Verdadero***).
 - $s:$ 1+3=7 (***Falso***).
 - x<7  (***No es una proposición***).
 - ¡Hola que tal! (***No es una proposción***).
 - Que día es hoy? (***No es una proposión***).
 
-## Proposiciones compuestas
+### Proposiciones compuestas
 
 Es una proposción simple que contiene al menos un conectivo lógico.
 
-## Conectivos Lógicos
+#### Conectivos Lógicos
 
 |NOMBRE|EXPRESIÓN| SIMBOLO LÓGICO | 
 | ----| :---: | :--------------:|
@@ -38,7 +38,7 @@ Es una proposción simple que contiene al menos un conectivo lógico.
 |Condicional o Implicación| $\to$|**Si,......,entonces,......**|
 |Bicondicional o Equivalencia| $\leftrightarrow$| **......si y solo si,......**|
 
-### Ejemplos de propoposiciones compuestas
+#### Ejemplos de propoposiciones compuestas
 
 Sea:
 
@@ -70,7 +70,7 @@ Formar las siguientes proposiciones compuestas:
 Para determinar el valor de verdad de una proposición compuesta se utiliza la tabla de verdad de cada conectivo lógico, detallado a continuación. 
 
                 
-##### Negación
+#### Negación
 
 Si la proposición es verdadera **V**, su negación es Falsa **F** y viceversa.
                 
@@ -79,7 +79,7 @@ Si la proposición es verdadera **V**, su negación es Falsa **F** y viceversa.
 |V|F|
 |F|V|
 
-##### Conjunción
+#### Conjunción
 
 La proposicion $p\wedge q$ es verdadera unicamente en el caso de que ambas sean verdaderas, caso contrario falso.
                 
@@ -90,7 +90,7 @@ La proposicion $p\wedge q$ es verdadera unicamente en el caso de que ambas sean 
 |F|V|F|
 |F|F|F|
 
-##### Disyunción
+#### Disyunción
 
 La proposición $p\vee q$ es falsa unicamente en el caso de que ambas sean falsas, caso contrario verdadero.
                 
@@ -101,7 +101,7 @@ La proposición $p\vee q$ es falsa unicamente en el caso de que ambas sean falsa
 |F|V|V|
 |F|F|F|
 
-##### Condicional o implicación
+#### Condicional o implicación
 
 La proposición $p \to  q$ es falsa unicamente en el caso de que  $p$ sea verdadera y $q$ sea falsa, caso contrario verdadero.
                 
@@ -123,7 +123,7 @@ La proposición $p \leftrightarrow q$ es verdadera cuando $p$ y $q$ tienen los m
 |F|V|F|
 |F|F|V|
 
-### Ejemplos
+#### Ejemplos
 
 Sea:
 
@@ -173,12 +173,12 @@ Formar las siguientes proposiciones compuestas y hallar su valor de verdad, util
 |:---|:---:|---:|
 |  V|**F**|F|
 
-# Bibliografía
+## Bibliografía
 
 - ESPINOZA,Eduardo. 2005. ***Matemática Básica***. Perú:Lima.
 
 - García García, Juan Ignacio; García Sánchez, Pedro A.; Urbano Blanco, Juan Manuel, [Fundamentos lógicos de la programación](http://hdl.handle.net/10481/43278), Universidad de Granada.
 
-# Tarea en casa
+## Tarea en casa
 
 Página 36,37. Ejercicios 1 y 2 del Libro Matemática Básica.
