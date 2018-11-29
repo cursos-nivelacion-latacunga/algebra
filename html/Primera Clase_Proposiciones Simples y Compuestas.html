@@ -1,0 +1,371 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js">
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head><body class="markdown-body">
+<p data-line="0" class="code-line">% Lógica proposicional</p>
+<p data-line="2" class="code-line"><strong>Tema de la clase</strong> Proposiciones: simples y compuestas. Introducción a los conectores lógicos: negación, conjunción,  disyunción, condicional, bicondicional. Tablas de verdad. Ejercicios.</p>
+<p data-line="4" class="code-line"><strong>Objetivo de la clase</strong> Definir y reconocer  proposiciones simples a las que se les puede asignar un valor de verdad para relacionarlas entre sí con conectivos lógicos como: negación , conjunción, disyunción, condicional y  bicondicional para formar proposiciones compuestas que tienen un valor de verdad que puede ser determinado.</p>
+<h1 id="proposiciones-lc3b3gicas-1" data-line="6" class="code-line">Proposiciones lógicas</h1>
+<p data-line="8" class="code-line">Enunciado (frase u oracion) que puede ser calificado como verdadero o falso, sin ambiguedades (no ambas a la vez). Y denotadas con letras minusculas (<eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq>,<eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq>,<eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span></eq>,<eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathdefault">t</span></span></span></span></eq>,...etc).</p>
+<p data-line="10" class="code-line">Se clasifican en simples y compuestas.</p>
+<h2 id="proposiciones-simples-1" data-line="12" class="code-line">Proposiciones simples</h2>
+<p data-line="14" class="code-line">Es una proposición que no contiene ningun conectivo lógico.</p>
+<h3 id="ejemplo-de-proposiciones-simples-1" data-line="16" class="code-line">Ejemplo de proposiciones simples</h3>
+<ul>
+<li data-line="18" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">p:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> 25 es un numero par  (<em><strong>Falso</strong></em>).</li>
+<li data-line="19" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">q:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> Granada es una Cuidad de España (<em><strong>Verdadero</strong></em>).</li>
+<li data-line="20" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">r:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> Emmy Noether fue la segunda mujer matemática que ayudó a Albert Einstein a alumbrar sus teorias (<em><strong>Verdadero</strong></em>).</li>
+<li data-line="21" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">s:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> 1+3=7 (<em><strong>Falso</strong></em>).</li>
+<li data-line="22" class="code-line">x&lt;7  (<em><strong>No es una proposición</strong></em>).</li>
+<li data-line="23" class="code-line">¡Hola que tal! (<em><strong>No es una proposción</strong></em>).</li>
+<li data-line="24" class="code-line">Que día es hoy? (<em><strong>No es una proposión</strong></em>).</li>
+</ul>
+<h2 id="proposiciones-compuestas-1" data-line="26" class="code-line">Proposiciones compuestas</h2>
+<p data-line="28" class="code-line">Es una proposción simple que contiene al menos un conectivo lógico.</p>
+<h2 id="conectivos-lc3b3gicos-1" data-line="30" class="code-line">Conectivos Lógicos</h2>
+<table>
+<thead>
+<tr>
+<th>NOMBRE</th>
+<th style="text-align:center">EXPRESIÓN</th>
+<th style="text-align:center">SIMBOLO LÓGICO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Negación</td>
+<td style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi></mrow><annotation encoding="application/x-tex">\neg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span></span></span></span></eq></td>
+<td style="text-align:center"><strong>no</strong></td>
+</tr>
+<tr>
+<td>Conjunción</td>
+<td style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∧</mo></mrow><annotation encoding="application/x-tex">\wedge</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∧</span></span></span></span></eq></td>
+<td style="text-align:center"><strong>y</strong></td>
+</tr>
+<tr>
+<td>Disyunción</td>
+<td style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∨</mo></mrow><annotation encoding="application/x-tex">\vee</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">∨</span></span></span></span></eq></td>
+<td style="text-align:center"><strong>ó</strong></td>
+</tr>
+<tr>
+<td>Condicional o Implicación</td>
+<td style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span></eq></td>
+<td style="text-align:center"><strong>Si,......,entonces,......</strong></td>
+</tr>
+<tr>
+<td>Bicondicional o Equivalencia</td>
+<td style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>↔</mo></mrow><annotation encoding="application/x-tex">\leftrightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">↔</span></span></span></span></eq></td>
+<td style="text-align:center"><strong>......si y solo si,......</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ejemplos-de-propoposiciones-compuestas-1" data-line="40" class="code-line">Ejemplos de propoposiciones compuestas</h3>
+<p data-line="42" class="code-line">Sea:</p>
+<ul>
+<li data-line="44" class="code-line">
+<p data-line="44" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">p:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> 5 es impar.</p>
+</li>
+<li data-line="46" class="code-line">
+<p data-line="46" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">q:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq> 2 es par.</p>
+</li>
+</ul>
+<p data-line="48" class="code-line">Formar las siguientes proposiciones compuestas:</p>
+<ul>
+<li data-line="50" class="code-line">
+<p data-line="50" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>p</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">\neg p:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq></p>
+<p data-line="52" class="code-line">5 <strong>no</strong> es impar.</p>
+</li>
+<li data-line="53" class="code-line">
+<p data-line="53" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>q</mi></mrow><annotation encoding="application/x-tex">\neg q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></p>
+<p data-line="55" class="code-line">2 <strong>no</strong> es par.</p>
+</li>
+<li data-line="56" class="code-line">
+<p data-line="56" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∨</mo><mi>q</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">p\vee q:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq></p>
+<p data-line="58" class="code-line">5 es impar <strong>o</strong> 2 es par.</p>
+</li>
+<li data-line="59" class="code-line">
+<p data-line="59" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>q</mi><mo>∧</mo><mi>p</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">\neg q \wedge p:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq></p>
+<p data-line="61" class="code-line">2 <strong>no</strong> es par <strong>y</strong> 5 es impar</p>
+</li>
+<li data-line="62" class="code-line">
+<p data-line="62" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>q</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">p \to  \neg q:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq></p>
+<p data-line="64" class="code-line"><strong>Si</strong> 5 es impar <strong>entonces</strong>, 2 <strong>no</strong> es par.</p>
+</li>
+<li data-line="65" class="code-line">
+<p data-line="65" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi><mo>↔</mo><mi>p</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">q \leftrightarrow p:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq></p>
+<p data-line="67" class="code-line">2 es par, <strong>si y solo si</strong>, 5 es impar.</p>
+</li>
+</ul>
+<p data-line="69" class="code-line">Para determinar el valor de verdad de una proposición compuesta se utiliza la tabla de verdad de cada conectivo lógico, detallado a continuación.</p>
+<h5 id="negacic3b3n-1" data-line="72" class="code-line">Negación</h5>
+<p data-line="74" class="code-line">Si la proposición es verdadera <strong>V</strong>, su negación es Falsa <strong>F</strong> y viceversa.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">\neg p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord">¬</span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">V</td>
+</tr>
+</tbody>
+</table>
+<h5 id="conjuncic3b3n-1" data-line="81" class="code-line">Conjunción</h5>
+<p data-line="83" class="code-line">La proposicion <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\wedge q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> es verdadera unicamente en el caso de que ambas sean verdaderas, caso contrario falso.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∧</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\wedge q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+</tbody>
+</table>
+<h5 id="disyuncic3b3n-1" data-line="92" class="code-line">Disyunción</h5>
+<p data-line="94" class="code-line">La proposición <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p\vee q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> es falsa unicamente en el caso de que ambas sean falsas, caso contrario verdadero.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>∨</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \vee q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.75em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+</tbody>
+</table>
+<h5 id="condicional-o-implicacic3b3n-1" data-line="103" class="code-line">Condicional o implicación</h5>
+<p data-line="105" class="code-line">La proposición <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \to  q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> es falsa unicamente en el caso de que  <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq> sea verdadera y <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> sea falsa, caso contrario verdadero.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>→</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \to  q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">V</td>
+</tr>
+</tbody>
+</table>
+<h4 id="bicondicional-o-equivalencia-1" data-line="114" class="code-line">Bicondicional o equivalencia</h4>
+<p data-line="116" class="code-line">La proposición <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> es verdadera cuando <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq> y <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq> tienen los mismos valores de verdad, caso contrario falso.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi></mrow><annotation encoding="application/x-tex">q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>↔</mo><mi>q</mi></mrow><annotation encoding="application/x-tex">p \leftrightarrow q</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">V</td>
+</tr>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">V</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ejemplos-1" data-line="125" class="code-line">Ejemplos</h3>
+<p data-line="127" class="code-line">Sea:</p>
+<ul>
+<li data-line="129" class="code-line">
+<p data-line="129" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">r:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq>  <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mi mathvariant="normal">≠</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 \neq  10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel latin_fallback"≯</span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq>  (<strong>F</strong>)</p>
+</li>
+<li data-line="131" class="code-line">
+<p data-line="131" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>:</mo></mrow><annotation encoding="application/x-tex">s:</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span></span></span></span></eq>  La capital de Ecuador es Quito (<strong>V</strong>)</p>
+</li>
+</ul>
+<p data-line="133" class="code-line">Formar las siguientes proposiciones compuestas y hallar su valor de verdad, utilizando la tabla de verdad que corresponda:</p>
+<ul>
+<li data-line="135" class="code-line">
+<p data-line="135" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">\neg r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></p>
+<p data-line="137" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 = 10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq>  (<strong>V</strong>)</p>
+</li>
+<li data-line="139" class="code-line">
+<p data-line="139" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\neg s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span></span></span></span></eq></p>
+<p data-line="141" class="code-line">La capital de Ecuador <strong>no</strong> es Quito (<strong>F</strong>)</p>
+</li>
+<li data-line="143" class="code-line">
+<p data-line="143" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq> v <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span></eq></p>
+<p data-line="145" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mi mathvariant="normal">≠</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 \neq  10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel latin_fallback"≯</span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq> <strong>ó</strong> La capital de Ecuador es Quito.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>∨</mo><mi>s</mi></mrow><annotation encoding="application/x-tex">r\vee s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∨</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+<th style="text-align:right"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center"><strong>V</strong></td>
+<td style="text-align:right">V</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-line="151" class="code-line">
+<p data-line="151" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>s</mi><mo>∧</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">\neg s \wedge   r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></p>
+<p data-line="153" class="code-line">La capital de Ecuador <strong>no</strong> es Quito  <strong>y</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mi mathvariant="normal">≠</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 \neq   10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel latin_fallback"≯</span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\neg s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>s</mi><mo>∧</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">\neg s \wedge   r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.55556em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∧</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+<th style="text-align:right"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center"><strong>F</strong></td>
+<td style="text-align:right">F</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li data-line="159" class="code-line">
+<p data-line="159" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">r \to  \neg s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span></span></span></span></eq></p>
+<p data-line="161" class="code-line"><strong>Si</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mi mathvariant="normal">≠</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 \neq   10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel latin_fallback"≯</span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq> <strong>entonces</strong>, La capital de Ecuador <strong>no</strong> es Quito.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>→</mo><mi mathvariant="normal">¬</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">r \to  \neg s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+<th style="text-align:right"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">¬</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\neg s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord">¬</span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">F</td>
+<td style="text-align:center"><strong>V</strong></td>
+<td style="text-align:right">F</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li data-line="167" class="code-line">
+<p data-line="167" class="code-line"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>↔</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">s \leftrightarrow r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></p>
+<p data-line="169" class="code-line">La capital de Ecuador es Quito, <strong>si y solo si</strong>, <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mi mathvariant="normal">≠</mi><mn>10</mn></mrow><annotation encoding="application/x-tex">6 + 4 \neq   10</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel"><span class="mrel"><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="rlap"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="inner"><span class="mrel latin_fallback"≯</span></span><span class="fix"></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.19444em;"><span></span></span></span></span></span></span><span class="mrel">=</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span></span></span></span></eq></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span></eq></th>
+<th style="text-align:center"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi><mo>↔</mo><mi>r</mi></mrow><annotation encoding="application/x-tex">s \leftrightarrow r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↔</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+<th style="text-align:right"><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">V</td>
+<td style="text-align:center"><strong>F</strong></td>
+<td style="text-align:right">F</td>
+</tr>
+</tbody>
+</table>
+<h1 id="bibliografc3ada-1" data-line="175" class="code-line">Bibliografía</h1>
+<ul>
+<li data-line="177" class="code-line">
+<p data-line="177" class="code-line">ESPINOZA,Eduardo. 2005. <em><strong>Matemática Básica</strong></em>. Perú:Lima.</p>
+</li>
+<li data-line="179" class="code-line">
+<p data-line="179" class="code-line">García García, Juan Ignacio; García Sánchez, Pedro A.; Urbano Blanco, Juan Manuel, <a href="http://hdl.handle.net/10481/43278">Fundamentos lógicos de la programación</a>, Universidad de Granada.</p>
+</li>
+</ul>
+<h1 id="tarea-en-casa-1" data-line="181" class="code-line">Tarea en casa</h1>
+<p data-line="183" class="code-line">Página 36,37. Ejercicios 1 y 2 del Libro Matemática Básica.</p>
+
+</body></html>
