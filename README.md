@@ -1,4 +1,4 @@
-# nivelacion-algebra-ecuador
+# Nivelación Álgebra
 
 Curso de nivelación de Álgebra para Universidad de las Fuerzas Armadas ESPE Extensión Latacunga
 
