@@ -208,7 +208,33 @@ Son aquellos productos cuyo resultado se pueden obtener directamente sin efectua
     $(2 x^3 - \dfrac{1}{3}y)^{2}=4 x^6 - \dfrac{2}{3}x^3y - \dfrac{2}{3}x^3y + \dfrac{1}{9}y^{2}$
 
     $(2 x^3 - \dfrac{1}{3}y)^{2}=4 x^6 - \dfrac{4}{3}x^3y + \dfrac{1}{9}y^{2}$
- 
+
+- Si $a+b=14$, $ab=48$ hallar el valor de $E=\sqrt{a^2 + b^2-36}$
+
+    En la ecuacion $a+b=14$ elevamos al cuadrado a ambos miembros y aplicamos productos notables. 
+
+    $(a+b)^2=(14)^2$
+
+    $(a^2+ 2ab+ b^2)=196$
+
+    Agrupación y reemplazo de valores
+
+    $(a^2+ b^2 + 2ab)=196$
+
+    $a^2+ b^2 =196 - 2ab$
+
+    $a^2+ b^2 =196 - 2(48)$
+
+    $a^2+ b^2 =100$
+
+    Sustitucion en $E=\sqrt{a^2 + b^2-36}$
+
+    $E=\sqrt{100-36}$
+
+    $E=\sqrt{64}$
+
+    $E=8$
+
 ## Bibliografía
 
 - SILVA,José. 2011. ***Algebra***.
