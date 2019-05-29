@@ -1,8 +1,15 @@
 # Curso de nivelación de Álgebra
 
-Curso de nivelación de Álgebra para la Universidad de las Fuerzas Armadas ESPE Extensión Latacunga
+Curso de nivelación de Álgebra para la Universidad de las Fuerzas Armadas ESPE Extensión Latacunga.
+
+El Álgebra es una rama de la matemática que introduce al estudiante en el ámbito de la matemática superior, mediante el conocimiento  progresivo de principios y reglas que le permitan utilizar adecuadamente en el desarrollo de las asignaturas tecnológico científicas de la malla curricular en las diferentes carreras profesionales.
+
+Esta asignatura corresponde a la primera etapa del eje de formación profesional, proporciona  las bases conceptuales de leyes y principios de la matemática, como apoyo a las demás  asignaturas del área de matemática y otros campos dentro da la formación profesional.
 
 En esta página iremos añadiendo las clases de nivelación de Álgebra.
+
+UNIDAD  1:                                       
+LOGICA MATEMATICA Y CONJUNTOS
 
 - [Clase 1: Proposiciones Simples y Compuestas](html/Primera_Clase_Proposiciones_Simples_y_Compuestas.html)
 - [Clase 2: Tautologías y Contradicciones](html/Tautologias_Contradicciones.html)
@@ -12,6 +19,9 @@ En esta página iremos añadiendo las clases de nivelación de Álgebra.
 - [Clase 6: Representación de conjuntos](html/RepresentaciondeConjuntos_6.html)
 - [Clase 7: Operaciones con conjuntos](html/OperacionesconConjuntos7.html)
 - [Clase 8: Leyes de álgebra de conjuntos](html/LeyesdelalgebradeConjuntos8.html)
+
+UNIDAD  2:                                       
+NÚMEROS REALES Y EXPRESIONES ALGEBRAICAS
 - [Clase 9: Estructuras algebraicas](html/EstructurasAlgebraicas9.html)
 - [Clase 10: Números Reales Clasificación](html/NumerosRealesCalsificación10.html)
 - [Clase 11: Ejercicios con números reales](html/Ejerciciosdenumerosreales11.html)
@@ -28,3 +38,7 @@ En esta página iremos añadiendo las clases de nivelación de Álgebra.
 - [Clase 22: Descomposición de polinomios ](html/DescomposicióndePolinomios22.html)
 - [Clase 23: Fracciones algebraicas](html/Fraccionesalgebraicas23.html)
 - [Clase 24: Operaciones con fracciones](html/OperacionconFracciones24.html)
+
+UNIDAD  3:
+ECUACIONES E INECUACIONES
+
