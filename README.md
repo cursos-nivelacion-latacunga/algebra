@@ -10,7 +10,7 @@ En esta página iremos añadiendo las clases de nivelación de Álgebra.
 - [Clase 4: Función proposicional. Uso de cuantificadores](html/Funcionproposicional_usodecuantificadores_4.html)
 - [Clase 5: Teoría de conjuntos](html/TeoriadeConjuntos5.html)
 - [Clase 6: Representación de conjuntos](html/RepresentaciondeConjuntos_6.html)
-- [Clase 7: Representación de conjuntos](html/OperacionesconConjuntos7.html)
+- [Clase 7: Operaciones con conjuntos](html/OperacionesconConjuntos7.html)
 - [Clase 8: Leyes de álgebra de conjuntos](html/LeyesdelalgebradeConjuntos8.html)
 
 
