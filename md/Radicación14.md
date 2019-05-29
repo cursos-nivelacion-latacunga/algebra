@@ -86,7 +86,7 @@ $\sqrt{}=$ signo del radical
 
 Aplicando las propiedades de los radicales simplificar las siguientes expresiones:
 
-- $\sqrt[3]{\dfrac{\sqrt[\frac{1}{2}] {a}}{{a}^{\frac{1}{2}}}}$
+- $\sqrt[3]{\dfrac{\sqrt[\frac{1}{2}]{a}}{a^{\frac{1}{2}}}}$
 
 
     $= \sqrt[3]{\dfrac{a^{\frac{1}{\frac{1}{2}}}} {a^{\frac{1}{2}}}}$
