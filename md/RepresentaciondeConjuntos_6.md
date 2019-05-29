@@ -111,21 +111,21 @@ Se determina mediante la expresión $2^n$ donde $n$ es el numero de elementos de
 ### Ejemplo
 Dado los siguientes conjuntos determinar el cojunto potencia de cada uno de ellos.
 
-- B={a,b}
+- $B=\{a,b\}$
 
     $n=2$
 
     Elementos de P(B)= $2^2=4$ ; entonces por extensión:
 
-    P(B)={{a},{b},{a,b},{∅}}.
+    $P(B)=\{\{a\},\{b\},\{a,b\},\{∅\}\}$.
 
-- C={1,2,3}
+- $C=\{1,2,3\}$
 
     $n=3$
 
-    Elementos de P(C)= $2^3=8$ ; entonces por extensión:
+    Elementos de $P(C)= 2^3=8$ ; entonces por extensión:
 
-    P(C)={{1},{2},{3},{1,2},{1,3},{2,3},{1,2,3},{∅}}.
+    $P(C)=\{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\},\{1,2,3\},\{∅\}\}$.
 
 
 ## Bibliografía
