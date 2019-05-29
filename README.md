@@ -6,5 +6,8 @@ En esta página iremos añadiendo las clases de nivelación de Álgebra.
 
 - [Primera Clase: Proposiciones Simples y Compuestas](html/Primera_Clase_Proposiciones_Simples_y_Compuestas.html)
 - [Segunda Clase: Tautologías y Contradicciones](html/Tautologias_Contradicciones.html)
+- [Tercera Clase: Inferencias](html/Reglasdeinferencia.3.html)
+- [Cuarta Clase: Función proposicional. Uso de cuantificadores](html/Funciónproposicional_usodecuantificadores 4.html)
+- [Quinta Clase: Teoría de conjunto](html/TeoriadeConjuntos5.html)
 
 - [Ejercicios con números reales](html/Ejerciciosdenumerosreales11.html)
