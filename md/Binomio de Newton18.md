@@ -80,7 +80,7 @@ Si se tiene $(a + b)^n$, todos los terminos son positivos y si se tiene la forma
 
     $=$ $(1)$ $\left(\dfrac {1}{x^5} \right) (1)$ - $(5)$ $\left(\dfrac {1}{x^{4}} \right) (2 {x}^\frac{1}{2})$ + $(10)$ $\left(\dfrac {1}{x^{3}} \right) (4x)$ - $(10)$ $\left(\dfrac {1}{x^{2}} \right)  (8  {x}^{\frac{3}{2}})$ + $(5)$ $\left(\dfrac {1}{x} \right)  (16 x^{2})$ - $(1)$ $(1) (32 {x}^\frac{5}{2})$
 
-    $= \dfrac {1}{x^5}$ - $\dfrac{10}{x^{\frac{7}{2}}}$ + $\dfrac {40}{x^{2}}$ - $\dfrac{80} {{x}^{\frac{1}{2}}}$ + $80x$ - $32 {x}^\frac{5}{2}$
+    $= \dfrac {1}{x^5}$ - $\dfrac{10}{x^{\frac{7}{2}}}$ + $\dfrac {40}{x^{2}}$ - $\dfrac{80}{{x}^{\frac{1}{2}}}$ + $80x$ - $32 {x}^\frac{5}{2}$
 
 ## Termino General $T_r$
 
